@@ -1,5 +1,5 @@
 <?php
-require_once'connect.php';
+require_once'kinderconnect.php';
 $sql="SELECT * FROM `registerpupil`";
 $sql2="SELECT * FROM `deactive`";
 $result=mysqli_query($conn,$sql);
